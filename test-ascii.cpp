@@ -13,7 +13,8 @@ int main(){
     std::cout << "Input: " << std::endl;
     std::string s;
     getline(std::cin, s);
-    for (int i = 0; i <= s.length(); i++){
+    for (int i = 0; i < s.length(); i++){
         std::cout << s[i] << " " << (int)s[i] << std::endl;  
     }
+
 }
